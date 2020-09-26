@@ -68,7 +68,9 @@ jobs:
         
       - name: Deploy to Firebase
         working-directory: ${{ steps.download.outputs.download-path }}/artifact
-        run: firebase deploy --only hosting --token $FIREBASE_TOKEN
+        run: |
+          ls -al
+          firebase deploy --token $FIREBASE_TOKEN
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
       
