@@ -68,9 +68,8 @@ jobs:
         run: |
           echo ${{steps.download.outputs.download-path}}
           ls ${{steps.download.outputs.download-path}}
-          ls
-          tree
-          tree ${{steps.download.outputs.download-path}}
+          ls -al
+          
           
       - name: Setup Node.js environment
         uses: actions/setup-node@v1.4.3
