@@ -67,7 +67,7 @@ jobs:
         run: npm install -g firebase-tools
         
       - name: Deploy to Firebase
-        working-directory: ${{ steps.download.outputs.download-path }}/artifact
+        working-directory: "${{ steps.download.outputs.download-path }}/artifact"
         run: |
           ls -al
           # firebase deploy --token $FIREBASE_TOKEN
