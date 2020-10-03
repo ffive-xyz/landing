@@ -1,13 +1,12 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <Welcome msg="Welcome to Your Vue.js + TypeScript App" />
+    <Welcome />
   </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import Welcome from "@/components/Welcome.vue"; // @ is an alias to /src
+import Welcome from "@/components/Home/Welcome.vue"; // @ is an alias to /src
 
 @Options({
   components: {
