@@ -1,4 +1,4 @@
-# landing
+# main-website
 
 ## Project setup
 ```
