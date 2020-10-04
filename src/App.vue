@@ -14,18 +14,19 @@ body {
   padding: 0;
 }
 body {
-  background-color: #181818;
+  background-color: $dark-background;
 }
 * {
   box-sizing: border-box;
 }
 #app {
+  width: 100vw;
   // font-family: Avenir, Helvetica, Arial, sans-serif;
   font-family: "Work Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   // text-align: center;
-  color: #7ab0e6;
+  color: $dark-color;
 }
 
 #nav {
