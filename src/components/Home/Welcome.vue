@@ -1,10 +1,12 @@
 <template>
   <div class="welcome">
-    <div class="title">
-      <div id="main-heading">ffive.xyz</div>
-      <div id="sub-heading">learn and run</div>
+    <div class="content">
+      <div class="title">
+        <div id="main-heading">ffive.xyz</div>
+        <div id="sub-heading">learn and run</div>
+      </div>
+      <div class="additional"></div>
     </div>
-    <div class="additional"></div>
     <div class="background">
       <img src="@/assets/keyboard.svg" alt="keyboard graphic" />
     </div>
