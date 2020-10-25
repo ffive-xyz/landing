@@ -7,36 +7,38 @@
           inspire and build cool projects.
         </p>
 
-        <a
-          href="https://github.com/ffive-xyz"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="call-to-action"
-          ><div>
-            Community Blogs
-          </div>
-          <img src="@/assets/github.png" alt=""
-        /></a>
-        <a
-          href="https://github.com/ffive-xyz"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="call-to-action"
-          ><div>
-            Showcase
-          </div>
-          <img src="@/assets/github.png" alt=""
-        /></a>
-        <a
-          href="https://github.com/ffive-xyz"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="call-to-action"
-          ><div>
-            Fork us
-          </div>
-          <img src="@/assets/github.png" alt=""
-        /></a>
+        <div class="links">
+          <a
+            href="https://github.com/ffive-xyz"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="call-to-action"
+            ><div>
+              Community Blogs
+            </div>
+            <img src="@/assets/github.png" alt=""
+          /></a>
+          <a
+            href="https://github.com/ffive-xyz"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="call-to-action"
+            ><div>
+              Showcase
+            </div>
+            <img src="@/assets/github.png" alt=""
+          /></a>
+          <a
+            href="https://github.com/ffive-xyz"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="call-to-action"
+            ><div>
+              Fork us
+            </div>
+            <img src="@/assets/github.png" alt=""
+          /></a>
+        </div>
       </div>
     </div>
   </div>
@@ -51,5 +53,13 @@ export default class Intro extends Vue {}
 <style lang="scss" scoped>
 .intro {
   @include page;
+  height: unset;
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    & > a {
+      margin: 20px !important;
+    }
+  }
 }
 </style>
