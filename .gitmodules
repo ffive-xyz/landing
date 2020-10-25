@@ -1,0 +1,3 @@
+[submodule "src/assets/website-branding"]
+	path = src/assets/website-branding
+	url = https://github.com/ffive-xyz/website-branding

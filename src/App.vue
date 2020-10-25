@@ -7,31 +7,8 @@
 </template>
 
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap");
-head,
-body {
-  margin: 0;
-  padding: 0;
-}
-body {
-  background-color: $dark-background;
-  height: 100vh;
-  width: 100vw;
-  overflow-x: hidden;
-}
-* {
-  box-sizing: border-box;
-}
-#app {
-  width: 100%;
-  // font-family: Avenir, Helvetica, Arial, sans-serif;
-  font-family: "Work Sans", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  // text-align: center;
-  color: $dark-color;
-  // overflow: auto;
-  transition-duration: 0.2s;
+html {
+  @include body;
 }
 
 #nav {
